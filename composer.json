@@ -1,0 +1,20 @@
+{
+    "name": "dvpost/trace-monitoring",
+    "description": "Trace monitoring library",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "psr/log": "^1.1 || ^2.0 || ^3.0",
+        "psr/event-dispatcher": "^1.0",
+        "ext-sockets": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dvpost\\TraceMonitor\\": "src/"
+        }
+    }
+}
